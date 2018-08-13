@@ -7,23 +7,31 @@ h1 {
 img {
   width: 300px;
   height: 300px;
-  margin-bottom: 1em;
-}
-
-section > p {
-  font-size: 1em;
-}
-
-p {
-  font-size: 1.7em;
-  margin: 0;
 }
 
 #project-title {
   font-family: 'Roboto Slab', serif;
   font-size: 1.75em;
-  padding: 1em;
+  padding: 0.8em;
   color: #333
+}
+
+.button-box {
+  position: fixed;
+  padding: 1em;
+  left: -20px;
+  bottom: 150px;
+  width: 100%;
+}
+
+p {
+  font-size: 1.3em;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#instructions {
+  font-size: 0.75em;
 }
 
 .share {
@@ -38,4 +46,15 @@ footer {
   left: -20px;
   bottom: 0;
   width: 100%;
+}
+
+@media (max-width: 420px) {
+  .button-box {
+    position: fixed;
+    padding: 1em;
+    position: fixed;
+    left: -20px;
+    bottom: 75px;
+    width: 100%;
+  }
 }
